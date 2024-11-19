@@ -26,7 +26,7 @@ class ContactController extends Controller
         //! Enviar el correo electrónico con Laravel's Mail facade
         try {
             Mail::send('emails.email', $data, function ($message) use ($request) {
-                $message->to('fernandobz@iescastelar.com')
+                $message->to('baquerozamoraruben@gmail.com')
                     ->subject('Consulta Online');
             });
 
