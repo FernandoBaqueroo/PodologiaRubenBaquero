@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
         integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOM6h8dX7FxA2O1d+RpuZ0en9r1i4QO4ROh3WxK" crossorigin="anonymous">
+    <link rel="icon" href="{{ asset('media/photos/favicon.png') }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('media/photos/favicon.png') }}" type="image/x-icon">
 </head>
 
 <body class="bg-[#f3f3f3] text-slate-800 overflow-y-auto" style="font-family: 'Poppins', sans-serif">
