@@ -98,6 +98,7 @@
                 <!--Botón-->
                 <div class="flex justify-center">
                     <button
+                        onclick="document.getElementById('about_me').scrollIntoView({ behavior: 'smooth' })"
                         class="hidden md:block bg-[#8b785d] text-white border-0 py-2 px-6 focus:outline-none hover:bg-[#635542] hover:text-white rounded text-lg">Saber
                         Más</button>
                 </div>
@@ -109,6 +110,7 @@
             </div>
             <div class="flex justify-center mt-6">
                 <button
+                    onclick="document.getElementById('about_me').scrollIntoView({ behavior: 'smooth' })"
                     class="block md:hidden bg-[#8b785d] text-white border-0 py-2 px-6 focus:outline-none hover:bg-[#635542] hover:text-white rounded text-lg">Saber
                     Más</button>
             </div>
@@ -129,112 +131,109 @@
             </div>
         </div>
         <div class="container mx-auto flex flex-col md:flex-row items-center -mt-20 md:-mt-11">
-
             <div class="lg:max-w-xl lg:w-full md:w-1/2 w-5/6">
-                <img class="object-cover object-center rounded shadow-2xl" alt="hero"
-                    src="{{ asset('media/photos/about_me.jpg') }}">
+                <img class="object-cover object-center rounded shadow-2xl" alt="hero" src="{{ asset('media/photos/about_me.jpg') }}">
             </div>
 
             <div class="container px-5 py-12 mx-auto flex flex-wrap">
-                <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
-                    <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
-                        <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
-                    </div>
-                    <div
-                        class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-[#8b785d] text-white relative z-10 title-font font-medium text-sm">
-                        1</div>
-                    <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-                        <div
-                            class="flex-shrink-0 w-24 h-24 bg-gray-200 text-[#8b785d] rounded-full inline-flex items-center justify-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                stroke-width="1.5" stroke="currentColor" class="h-12 w-12">
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
-                            </svg>
+                <div class="flex flex-col items-center md:w-2/3 mx-auto">
+
+                    <!-- Item 1 -->
+                    <div class="flex relative pb-20 w-full">
+                        <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+                            <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
                         </div>
-                        <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                            <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Universidad de Extremadura
-                            </h2>
-                            <h4 class="font-medium title-font text-gray-700 mb-1 text-lg">2011-2015
-                            </h4>
-                            <p class="leading-relaxed">Grado en podología</p>
+                        <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-[#8b785d] text-white relative z-10 title-font font-medium text-sm">
+                            1
                         </div>
-                    </div>
-                </div>
-                <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
-                    <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
-                        <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
-                    </div>
-                    <div
-                        class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-[#8b785d] text-white relative z-10 title-font font-medium text-sm">
-                        2</div>
-                    <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-                        <div
-                            class="flex-shrink-0 w-24 h-24 bg-gray-200 text-[#8b785d] rounded-full inline-flex items-center justify-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                stroke-width="1.5" stroke="currentColor" class="h-12 w-12">
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
-                            </svg>
-                        </div>
-                        <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                            <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Universidad de Extremadura
-                            </h2>
-                            <h4 class="font-medium title-font text-gray-700 mb-1 text-lg">2015-2016
-                            </h4>
-                            <p class="leading-relaxed">Especialista en Pie Diabético</p>
+                        <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row w-full max-w-md">
+                            <div class="flex-shrink-0 w-24 h-24 bg-gray-200 text-[#8b785d] rounded-full inline-flex items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                     stroke-width="1.5" stroke="currentColor" class="h-12 w-12">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                          d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
+                                </svg>
+                            </div>
+                            <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                                <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Universidad de Extremadura</h2>
+                                <h4 class="font-medium title-font text-gray-700 mb-1 text-lg">2011-2015</h4>
+                                <p class="leading-relaxed">Grado en podología</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
-                    <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
-                        <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
-                    </div>
-                    <div
-                        class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-[#8b785d] text-white relative z-10 title-font font-medium text-sm">
-                        3</div>
-                    <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-                        <div
-                            class="flex-shrink-0 w-24 h-24 bg-gray-200 text-[#8b785d] rounded-full inline-flex items-center justify-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                stroke-width="1.5" stroke="currentColor" class="h-12 w-12">
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
-                            </svg>
+
+                    <!-- Item 2 -->
+                    <div class="flex relative pb-20 w-full">
+                        <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+                            <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
                         </div>
-                        <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                            <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Universidad Católica de
-                                Valencia San Vicente Mártir</h2>
-                            <h4 class="font-medium title-font text-gray-700 mb-1 text-lg">2017-2018
-                            </h4>
-                            <p class="leading-relaxed">Master en Cirugía Minimamente Invasiva del Pie</p>
+                        <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-[#8b785d] text-white relative z-10 title-font font-medium text-sm">
+                            2
                         </div>
-                    </div>
-                </div>
-                <div class="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
-                    <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
-                        <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
-                    </div>
-                    <div
-                        class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-[#8b785d] text-white relative z-10 title-font font-medium text-sm">
-                        4</div>
-                    <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-                        <div
-                            class="flex-shrink-0 w-24 h-24 bg-gray-200 text-[#8b785d] rounded-full inline-flex items-center justify-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                stroke-width="1.5" stroke="currentColor" class="h-12 w-12">
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
-                            </svg>
-                        </div>
-                        <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                            <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">The Podiatry Institute Inc.
-                            </h2>
-                            <h4 class="font-medium title-font text-gray-700 mb-1 text-lg">2022-2022
-                            </h4>
-                            <p class="leading-relaxed">Foot & Ankle Surgical Skills Training Program in Atlanta</p>
+                        <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row w-full max-w-md">
+                            <div class="flex-shrink-0 w-24 h-24 bg-gray-200 text-[#8b785d] rounded-full inline-flex items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                     stroke-width="1.5" stroke="currentColor" class="h-12 w-12">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                          d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
+                                </svg>
+                            </div>
+                            <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                                <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Universidad de Extremadura</h2>
+                                <h4 class="font-medium title-font text-gray-700 mb-1 text-lg">2015-2016</h4>
+                                <p class="leading-relaxed">Especialista en Pie Diabético</p>
+                            </div>
                         </div>
                     </div>
+
+                    <!-- Item 3 -->
+                    <div class="flex relative pb-20 w-full">
+                        <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+                            <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                        </div>
+                        <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-[#8b785d] text-white relative z-10 title-font font-medium text-sm">
+                            3
+                        </div>
+                        <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row w-full max-w-md">
+                            <div class="flex-shrink-0 w-24 h-24 bg-gray-200 text-[#8b785d] rounded-full inline-flex items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                     stroke-width="1.5" stroke="currentColor" class="h-12 w-12">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                          d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
+                                </svg>
+                            </div>
+                            <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                                <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Universidad Católica de Valencia San Vicente Mártir</h2>
+                                <h4 class="font-medium title-font text-gray-700 mb-1 text-lg">2017-2018</h4>
+                                <p class="leading-relaxed">Master en Cirugía Minimamente Invasiva del Pie</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 4 -->
+                    <div class="flex relative pb-10 w-full">
+                        <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+                            <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                        </div>
+                        <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-[#8b785d] text-white relative z-10 title-font font-medium text-sm">
+                            4
+                        </div>
+                        <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row w-full max-w-md">
+                            <div class="flex-shrink-0 w-24 h-24 bg-gray-200 text-[#8b785d] rounded-full inline-flex items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                     stroke-width="1.5" stroke="currentColor" class="h-12 w-12">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                          d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
+                                </svg>
+                            </div>
+                            <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                                <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">The Podiatry Institute Inc.</h2>
+                                <h4 class="font-medium title-font text-gray-700 mb-1 text-lg">2022-2022</h4>
+                                <p class="leading-relaxed">Foot & Ankle Surgical Skills Training Program in Atlanta</p>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
