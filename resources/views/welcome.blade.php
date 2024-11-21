@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Podología Ruben Baquero</title>
+    <title>Podólogo en Carabanchel - Rubén Baquero</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
@@ -380,7 +380,7 @@
                             <img alt="content" class="object-cover object-center h-full w-full"
                                 src="{{ asset('media/photos/services/ecografia.jpg') }}">
                         </div>
-                        <h2 class="text-xl font-medium title-font text-gray-900 mt-5">Ecografía del pie:</h2>
+                        <h2 class="text-xl font-medium title-font text-gray-900 mt-5">Ecografía del pie</h2>
                         <p class="text-base text-justify leading-relaxed mt-2">
                             La ecografía es una técnica de diagnóstico por imagen no invasiva y sin radiación que
                             permite evaluar lesiones, detectar inflamaciones y diagnosticar condiciones como
@@ -395,7 +395,7 @@
                             <img alt="content" class="object-cover object-center h-full w-full"
                                 src="{{ asset('media/photos/services/ecografia.jpg') }}">
                         </div>
-                        <h2 class="text-xl font-medium title-font text-gray-900 mt-5">Infiltraciones ecoguiadas:
+                        <h2 class="text-xl font-medium title-font text-gray-900 mt-5">Infiltraciones ecoguiadas
                         </h2>
                         <p class="text-base text-justify leading-relaxed mt-2">
                             Procedimiento que utiliza ecografía para dirigir la aguja con precisión al área afectada
