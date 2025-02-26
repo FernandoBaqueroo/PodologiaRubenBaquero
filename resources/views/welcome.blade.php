@@ -537,6 +537,22 @@
 
                 <p class="text-xs text-gray-500 mt-3">Para una mayor rapidez, puede contactar al número de la clínica.
                 </p>
+
+                <!-- Mensaje de éxito -->
+                <div id="success-message"
+                    class="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-50 backdrop-blur-sm hidden">
+                    <div
+                        class="bg-green-500 text-white p-6 rounded-lg shadow-lg max-w-sm w-full relative transition-opacity opacity-100">
+                        <button id="close-message"
+                            class="absolute top-2 right-2 text-white text-xl focus:outline-none">
+                            &times;
+                        </button>
+                        <div id="success-text">
+                            <!-- El mensaje de éxito se llenará con JS -->
+                        </div>
+                    </div>
+                </div>
+
             </form>
 
         </div>
