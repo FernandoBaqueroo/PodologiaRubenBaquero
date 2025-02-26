@@ -99,8 +99,7 @@
 
                 <!--Botón-->
                 <div class="flex justify-center">
-                    <button
-                        onclick="document.getElementById('about_me').scrollIntoView({ behavior: 'smooth' })"
+                    <button onclick="document.getElementById('about_me').scrollIntoView({ behavior: 'smooth' })"
                         class="hidden md:block bg-[#8b785d] text-white border-0 py-2 px-6 focus:outline-none hover:bg-[#635542] hover:text-white rounded text-lg">Saber
                         Más</button>
                 </div>
@@ -111,8 +110,7 @@
                     src="{{ asset('media/photos/inicio (2).jpg') }}">
             </div>
             <div class="flex justify-center mt-6">
-                <button
-                    onclick="document.getElementById('about_me').scrollIntoView({ behavior: 'smooth' })"
+                <button onclick="document.getElementById('about_me').scrollIntoView({ behavior: 'smooth' })"
                     class="block md:hidden bg-[#8b785d] text-white border-0 py-2 px-6 focus:outline-none hover:bg-[#635542] hover:text-white rounded text-lg">Saber
                     Más</button>
             </div>
@@ -134,7 +132,8 @@
         </div>
         <div class="container mx-auto flex flex-col md:flex-row items-center -mt-20 md:-mt-11">
             <div class="lg:max-w-xl lg:w-full md:w-1/2 w-5/6">
-                <img class="object-cover object-center rounded shadow-2xl" alt="hero" src="{{ asset('media/photos/about_me.jpg') }}">
+                <img class="object-cover object-center rounded shadow-2xl" alt="hero"
+                    src="{{ asset('media/photos/about_me.jpg') }}">
             </div>
 
             <div class="container px-5 py-12 mx-auto flex flex-wrap">
@@ -145,19 +144,23 @@
                         <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
                             <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
                         </div>
-                        <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-[#8b785d] text-white relative z-10 title-font font-medium text-sm">
+                        <div
+                            class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-[#8b785d] text-white relative z-10 title-font font-medium text-sm">
                             1
                         </div>
-                        <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row w-full max-w-md">
-                            <div class="flex-shrink-0 w-24 h-24 bg-gray-200 text-[#8b785d] rounded-full inline-flex items-center justify-center">
+                        <div
+                            class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row w-full max-w-md">
+                            <div
+                                class="flex-shrink-0 w-24 h-24 bg-gray-200 text-[#8b785d] rounded-full inline-flex items-center justify-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                     stroke-width="1.5" stroke="currentColor" class="h-12 w-12">
+                                    stroke-width="1.5" stroke="currentColor" class="h-12 w-12">
                                     <path stroke-linecap="round" stroke-linejoin="round"
-                                          d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
+                                        d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
                                 </svg>
                             </div>
                             <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                                <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Universidad de Extremadura</h2>
+                                <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Universidad de
+                                    Extremadura</h2>
                                 <h4 class="font-medium title-font text-gray-700 mb-1 text-lg">2011-2015</h4>
                                 <p class="leading-relaxed">Grado en podología</p>
                             </div>
@@ -169,19 +172,23 @@
                         <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
                             <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
                         </div>
-                        <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-[#8b785d] text-white relative z-10 title-font font-medium text-sm">
+                        <div
+                            class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-[#8b785d] text-white relative z-10 title-font font-medium text-sm">
                             2
                         </div>
-                        <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row w-full max-w-md">
-                            <div class="flex-shrink-0 w-24 h-24 bg-gray-200 text-[#8b785d] rounded-full inline-flex items-center justify-center">
+                        <div
+                            class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row w-full max-w-md">
+                            <div
+                                class="flex-shrink-0 w-24 h-24 bg-gray-200 text-[#8b785d] rounded-full inline-flex items-center justify-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                     stroke-width="1.5" stroke="currentColor" class="h-12 w-12">
+                                    stroke-width="1.5" stroke="currentColor" class="h-12 w-12">
                                     <path stroke-linecap="round" stroke-linejoin="round"
-                                          d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
+                                        d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
                                 </svg>
                             </div>
                             <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                                <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Universidad de Extremadura</h2>
+                                <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Universidad de
+                                    Extremadura</h2>
                                 <h4 class="font-medium title-font text-gray-700 mb-1 text-lg">2015-2016</h4>
                                 <p class="leading-relaxed">Especialista en Pie Diabético</p>
                             </div>
@@ -193,19 +200,23 @@
                         <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
                             <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
                         </div>
-                        <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-[#8b785d] text-white relative z-10 title-font font-medium text-sm">
+                        <div
+                            class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-[#8b785d] text-white relative z-10 title-font font-medium text-sm">
                             3
                         </div>
-                        <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row w-full max-w-md">
-                            <div class="flex-shrink-0 w-24 h-24 bg-gray-200 text-[#8b785d] rounded-full inline-flex items-center justify-center">
+                        <div
+                            class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row w-full max-w-md">
+                            <div
+                                class="flex-shrink-0 w-24 h-24 bg-gray-200 text-[#8b785d] rounded-full inline-flex items-center justify-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                     stroke-width="1.5" stroke="currentColor" class="h-12 w-12">
+                                    stroke-width="1.5" stroke="currentColor" class="h-12 w-12">
                                     <path stroke-linecap="round" stroke-linejoin="round"
-                                          d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
+                                        d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
                                 </svg>
                             </div>
                             <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                                <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Universidad Católica de Valencia San Vicente Mártir</h2>
+                                <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Universidad Católica de
+                                    Valencia San Vicente Mártir</h2>
                                 <h4 class="font-medium title-font text-gray-700 mb-1 text-lg">2017-2018</h4>
                                 <p class="leading-relaxed">Master en Cirugía Minimamente Invasiva del Pie</p>
                             </div>
@@ -217,19 +228,23 @@
                         <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
                             <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
                         </div>
-                        <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-[#8b785d] text-white relative z-10 title-font font-medium text-sm">
+                        <div
+                            class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-[#8b785d] text-white relative z-10 title-font font-medium text-sm">
                             4
                         </div>
-                        <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row w-full max-w-md">
-                            <div class="flex-shrink-0 w-24 h-24 bg-gray-200 text-[#8b785d] rounded-full inline-flex items-center justify-center">
+                        <div
+                            class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row w-full max-w-md">
+                            <div
+                                class="flex-shrink-0 w-24 h-24 bg-gray-200 text-[#8b785d] rounded-full inline-flex items-center justify-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                     stroke-width="1.5" stroke="currentColor" class="h-12 w-12">
+                                    stroke-width="1.5" stroke="currentColor" class="h-12 w-12">
                                     <path stroke-linecap="round" stroke-linejoin="round"
-                                          d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
+                                        d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
                                 </svg>
                             </div>
                             <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                                <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">The Podiatry Institute Inc.</h2>
+                                <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">The Podiatry Institute
+                                    Inc.</h2>
                                 <h4 class="font-medium title-font text-gray-700 mb-1 text-lg">2022-2022</h4>
                                 <p class="leading-relaxed">Foot & Ankle Surgical Skills Training Program in Atlanta</p>
                             </div>
@@ -484,57 +499,45 @@
                 </div>
             </div>
 
+            <!-- Formulario de contacto -->
             <form id="contact-form" action="{{ route('contact.send') }}" method="POST"
                 class="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
                 @csrf
+
                 <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">Formulario de Contacto</h2>
                 <p class="leading-relaxed mb-5 text-gray-600">Si tienes dudas, no dudes en escribirnos</p>
 
                 <div class="relative mb-4">
                     <label for="name" class="leading-7 text-sm text-gray-600">Nombre</label>
-                    <input type="text" id="name" name="name"
-                        class="w-full bg-white rounded border border-gray-300 focus:border-[#8b785d] focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                        required>
+                    <input type="text" id="name" name="name" required
+                        class="w-full bg-white rounded border border-gray-300 focus:border-[#8b785d] focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                 </div>
 
                 <div class="relative mb-4">
                     <label for="email" class="leading-7 text-sm text-gray-600">Correo Electrónico</label>
-                    <input type="email" id="email" name="email"
-                        class="w-full bg-white rounded border border-gray-300 focus:border-[#8b785d] focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                        required>
+                    <input type="email" id="email" name="email" required
+                        class="w-full bg-white rounded border border-gray-300 focus:border-[#8b785d] focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                 </div>
 
                 <div class="relative mb-4">
                     <label for="message" class="leading-7 text-sm text-gray-600">Mensaje</label>
-                    <textarea id="message" name="message"
-                        class="w-full bg-white rounded border border-gray-300 focus:border-[#8b785d] focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-                        required></textarea>
+                    <textarea id="message" name="message" required
+                        class="w-full bg-white rounded border border-gray-300 focus:border-[#8b785d] focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
                 </div>
+
+                <!-- Campo honeypot oculto para bots -->
+                <input type="text" name="honey_pot" style="display: none;">
+
+                <!-- Token reCAPTCHA -->
+                <input type="hidden" name="recaptcha_token" id="recaptcha_token">
 
                 <button
                     class="text-white bg-[#8b785d] border-0 py-2 px-6 focus:outline-none hover:bg-[#8b785d] rounded text-lg"
                     type="submit">Enviar</button>
 
-                <p class="text-xs text-gray-500 mt-3">Para una mayor rapidez, puede contactar al número de la
-                    clínica.
+                <p class="text-xs text-gray-500 mt-3">Para una mayor rapidez, puede contactar al número de la clínica.
                 </p>
-
-                <!-- Mensaje de éxito -->
-                <div id="success-message"
-                    class="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-50 backdrop-blur-sm hidden">
-                    <div
-                        class="bg-green-500 text-white p-6 rounded-lg shadow-lg max-w-sm w-full relative transition-opacity opacity-100">
-                        <button id="close-message"
-                            class="absolute top-2 right-2 text-white text-xl focus:outline-none">
-                            &times;
-                        </button>
-                        <div id="success-text">
-                            <!-- El mensaje de éxito se llenará con JS -->
-                        </div>
-                    </div>
-                </div>
             </form>
-
 
         </div>
     </section>
@@ -577,6 +580,18 @@
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Script para Google reCAPTCHA v3 -->
+    <script src="https://www.google.com/recaptcha/api.js?render={{ config('services.recaptcha.site_key') }}"></script>
+    <script>
+        grecaptcha.ready(function() {
+            grecaptcha.execute("{{ config('services.recaptcha.site_key') }}", {
+                    action: "submit"
+                })
+                .then(function(token) {
+                    document.getElementById("recaptcha_token").value = token;
+                });
+        });
+    </script>
     <script>
         //! Función para manejar la aparición de los elementos
         document.addEventListener('DOMContentLoaded', () => {
